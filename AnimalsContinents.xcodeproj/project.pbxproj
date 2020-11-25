@@ -7,23 +7,33 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		152C75492565876100F6C3C1 /* AnimalDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 152C75482565876100F6C3C1 /* AnimalDetailViewController.swift */; };
 		1548D09F256062430057FBF8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1548D09E256062430057FBF8 /* AppDelegate.swift */; };
-		1548D0A1256062430057FBF8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1548D0A0256062430057FBF8 /* ViewController.swift */; };
 		1548D0A4256062430057FBF8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1548D0A2256062430057FBF8 /* Main.storyboard */; };
 		1548D0A7256062430057FBF8 /* AnimalsContinents.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 1548D0A5256062430057FBF8 /* AnimalsContinents.xcdatamodeld */; };
 		1548D0A9256062440057FBF8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1548D0A8256062440057FBF8 /* Assets.xcassets */; };
 		1548D0AC256062440057FBF8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1548D0AA256062440057FBF8 /* LaunchScreen.storyboard */; };
+		1548D0B42560626E0057FBF8 /* ContinentTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1548D0B32560626E0057FBF8 /* ContinentTableViewController.swift */; };
+		1548D0B62560628A0057FBF8 /* ContinentTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1548D0B52560628A0057FBF8 /* ContinentTableViewCell.swift */; };
+		1548D0BA25607D2A0057FBF8 /* CoreDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1548D0B925607D2A0057FBF8 /* CoreDataManager.swift */; };
+		156827AC2562FDD60057AE31 /* AnimalsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 156827AB2562FDD60057AE31 /* AnimalsTableViewController.swift */; };
+		156827AE2562FDEC0057AE31 /* AnimalsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 156827AD2562FDEC0057AE31 /* AnimalsTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		152C75482565876100F6C3C1 /* AnimalDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimalDetailViewController.swift; sourceTree = "<group>"; };
 		1548D09B256062430057FBF8 /* AnimalsContinents.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AnimalsContinents.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1548D09E256062430057FBF8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		1548D0A0256062430057FBF8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		1548D0A3256062430057FBF8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		1548D0A6256062430057FBF8 /* AnimalsContinents.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = AnimalsContinents.xcdatamodel; sourceTree = "<group>"; };
 		1548D0A8256062440057FBF8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1548D0AB256062440057FBF8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1548D0AD256062440057FBF8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1548D0B32560626E0057FBF8 /* ContinentTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContinentTableViewController.swift; sourceTree = "<group>"; };
+		1548D0B52560628A0057FBF8 /* ContinentTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContinentTableViewCell.swift; sourceTree = "<group>"; };
+		1548D0B925607D2A0057FBF8 /* CoreDataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataManager.swift; sourceTree = "<group>"; };
+		156827AB2562FDD60057AE31 /* AnimalsTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimalsTableViewController.swift; sourceTree = "<group>"; };
+		156827AD2562FDEC0057AE31 /* AnimalsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimalsTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,9 +66,14 @@
 		1548D09D256062430057FBF8 /* AnimalsContinents */ = {
 			isa = PBXGroup;
 			children = (
+				152C75482565876100F6C3C1 /* AnimalDetailViewController.swift */,
 				1548D09E256062430057FBF8 /* AppDelegate.swift */,
-				1548D0A0256062430057FBF8 /* ViewController.swift */,
+				1548D0B32560626E0057FBF8 /* ContinentTableViewController.swift */,
+				1548D0B52560628A0057FBF8 /* ContinentTableViewCell.swift */,
 				1548D0A2256062430057FBF8 /* Main.storyboard */,
+				156827AB2562FDD60057AE31 /* AnimalsTableViewController.swift */,
+				156827AD2562FDEC0057AE31 /* AnimalsTableViewCell.swift */,
+				1548D0B925607D2A0057FBF8 /* CoreDataManager.swift */,
 				1548D0A8256062440057FBF8 /* Assets.xcassets */,
 				1548D0AA256062440057FBF8 /* LaunchScreen.storyboard */,
 				1548D0AD256062440057FBF8 /* Info.plist */,
@@ -138,9 +153,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1548D0A1256062430057FBF8 /* ViewController.swift in Sources */,
 				1548D0A7256062430057FBF8 /* AnimalsContinents.xcdatamodeld in Sources */,
+				1548D0B42560626E0057FBF8 /* ContinentTableViewController.swift in Sources */,
 				1548D09F256062430057FBF8 /* AppDelegate.swift in Sources */,
+				156827AC2562FDD60057AE31 /* AnimalsTableViewController.swift in Sources */,
+				156827AE2562FDEC0057AE31 /* AnimalsTableViewCell.swift in Sources */,
+				1548D0BA25607D2A0057FBF8 /* CoreDataManager.swift in Sources */,
+				152C75492565876100F6C3C1 /* AnimalDetailViewController.swift in Sources */,
+				1548D0B62560628A0057FBF8 /* ContinentTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
